@@ -1,0 +1,54 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+}
+body{
+    margin: 0;
+    padding: 32px 20px;
+    color:rgb(19, 18, 20);
+    background-color: #faebcd;
+}
+header{
+    background-color: rgb(230, 225, 129);
+    padding: 32px;
+}
+header a{
+   
+    text-decoration: none;
+    gap: 4rem;
+    color: black;
+}
+header a:hover{
+    color:goldenrod;
+}
+h1{
+   color: goldenrod;
+    text-align: center;
+}
+.imagen-borde{
+    border-top: 4px solid goldenrod;/* Arriba*/
+    border-bottom: 4px solid goldenrod;/* Abajo*/
+    border-left: 4px solid goldenrod; /* izquierda*/
+  border-right: 4px solid goldenrod;/* derecha*/
+    border-radius: 8px;
+}
+.informacion-cv {
+  display: flex;
+  flex-direction: column; /* Alinea los bloques uno debajo del otro */
+  gap: 20px;              /* Espacio vertical entre cada experiencia/estudio */
+}
+
+.cv-item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: rgb(230, 225, 129) ;
+  border-left: 4px solid goldenrod; /* Detalle visual elegante para el CV */
+  border-radius: 4px;
+}
+
+.fecha {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
