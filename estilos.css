@@ -1,13 +1,18 @@
+/*-------------
+selector global
+----------------*/
 *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0px;
 }
+/*etiqueta*/
 body{
     margin: 0;
     padding: 32px 20px;
     color:rgb(19, 18, 20);
     background-color: #faebcd;
 }
+/* estilos para header*/
 header{
     background-color: rgb(230, 225, 129);
     padding: 32px;
@@ -15,40 +20,42 @@ header{
 header a{
    
     text-decoration: none;
-    gap: 4rem;
     color: black;
 }
 header a:hover{
     color:goldenrod;
 }
+/*estilos h1 */
 h1{
    color: goldenrod;
     text-align: center;
 }
+/*bordes a la imagen*/
 .imagen-borde{
     border-top: 4px solid goldenrod;/* Arriba*/
     border-bottom: 4px solid goldenrod;/* Abajo*/
     border-left: 4px solid goldenrod; /* izquierda*/
-  border-right: 4px solid goldenrod;/* derecha*/
+    border-right: 4px solid goldenrod;/* derecha*/
     border-radius: 8px;
 }
+/*estilos para los recuadros del div*/
 .informacion-cv {
   display: flex;
-  flex-direction: column; /* Alinea los bloques uno debajo del otro */
-  gap: 20px;              /* Espacio vertical entre cada experiencia/estudio */
+  flex-direction: column; 
+  gap: 20px;              
 }
-
+/*estilos del div y los bordes*/
 .cv-item {
   display: flex;
   flex-direction: column;
   padding: 15px;
   background-color: rgb(230, 225, 129) ;
-  border-left: 4px solid goldenrod; /* Detalle visual elegante para el CV */
+  border-left: 4px solid goldenrod;/*borde izquierdo*/
   border-radius: 4px;
 }
-
+/*estilos para las fechas*/
 .fecha {
-  font-weight: bold;
-  font-size: 0.9rem;
+  font-weight: bold;/*marca en negrita*/
+  font-size: 0.9rem;/*define el tamaño de la letra*/
   margin-bottom: 5px;
 }
